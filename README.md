@@ -80,8 +80,6 @@ You may use whatever you like as long as the solution is built using [React](htt
 
 You can use any CSS framework you wish ie Bootstrap, Tailwind etc.
 
-We also prefer the use of minimal dependencies.
-
 ## Other Notes
 
 Please send through any other code or projects that you're proud of and would like to share with us.

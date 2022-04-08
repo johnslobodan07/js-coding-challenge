@@ -1,6 +1,6 @@
 ## Overview
 
-To complete this challenge, you will need to write a simple [React](https://facebook.github.io/react/) or VueJS based web app, and provide us the source files to be built.
+To complete this challenge, you will need to write a simple [React](https://facebook.github.io/react/) or [Vue JS](https://vuejs.org/) based web app, and provide us the source files to be built.
 
 The purpose of this challenge is to assess your **skills and approach to composing a simple web app** given a set of screens, and an API feed. We will also assess the **generated HTML, CSS, and JS** output.
 

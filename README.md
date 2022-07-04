@@ -72,6 +72,9 @@ You will also need to handle the loading and error states of fetching the JSON f
 - "Loading" state [screens/1.1-loading.jpg](./screens/1.1-loading.jpg)
 - "Error" state [screens/1.2-error.jpg](./screens/1.2-error.jpg)
 
+## Note
+Please deploy the app to the server and share the url. Server details have been shared via email.
+
 ## FAQ
 
 ### What language, framework, build tool... should I use?

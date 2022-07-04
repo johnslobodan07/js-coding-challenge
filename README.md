@@ -1,6 +1,6 @@
 ## Overview
 
-To complete this challenge, you will need to write a simple [React](https://facebook.github.io/react/) or [Vue JS](https://vuejs.org/) based web app, and provide us the source files to be built.
+To complete this challenge, you will need to write a simple [React](https://facebook.github.io/react/) or [Angular](https://angular.io/) or [Vue JS](https://vuejs.org/) based web app, and provide us the source files to be built.
 
 The purpose of this challenge is to assess your **skills and approach to composing a simple web app** given a set of screens, and an API feed. We will also assess the **generated HTML, CSS, and JS** output.
 
@@ -8,7 +8,7 @@ This challenge is expected to take about 12 hours.
 
 ## The Challenge
 
-Using the provided screens as a reference, you'll need to build a set of React/Vue components to render the app. You'll also need to request a JSON feed, filter that data, and use the relevant fields.
+Using the provided screens as a reference, you'll need to build a set of React/Vue/Angular components to render the app. You'll also need to request a JSON feed, filter that data, and use the relevant fields.
 
 We'll be looking for **simple, well-designed, performant, and tested code** in the submission.
 
@@ -22,7 +22,7 @@ Also, add the following info to your `README`:
 
 ## Details
 
-You will need to build the following 3 pages with React:
+You will need to build the following 3 pages with React/Angular/Vue:
 
 - A "Home" page
 - A "Series" page
@@ -30,7 +30,7 @@ You will need to build the following 3 pages with React:
 
 The deployable solution should be built in a folder named **`dist`** with an entry point file of **`index.html`**.
 
-Please create components for each part of the page (eg. header, content, footer, etc).
+Please create components for each part of the page (eg. header, content/store, footer, etc).
 Assets are provided in the `assets` folder.
 
 The pages should also be responsive on desktop, mobile and tablet devices.
@@ -48,7 +48,7 @@ You will need to display 2 tiles, which link to the "Series" page and the "Movie
 
 Refer to the [screens/2-series.jpg](./screens/2-series.jpg) and [screens/3-movies.jpg](./screens/3-movies.jpg) screens.
 
-For each page you will need to fetch this JSON feed [feed/sample.json](https://raw.githubusercontent.com/amawalla/js-coding-challenge/master/feed/sample.json), then:
+For each page you will need to consume this API (https://raw.githubusercontent.com/amawalla/js-coding-challenge/master/feed/sample.json), then:
 
 - Display the first 21 `entries`
 - Where the entry has a `releaseYear` attribute value >= `2010`
@@ -67,7 +67,7 @@ The attributes you should use to display the entries are:
 - `title`
 - `images` → `Poster Art` → `url`
 
-You will also need to handle the loading and error states of fetching the JSON feed:
+You will also need to handle the loading and error states of fetching the JSON feed from API:
 
 - "Loading" state [screens/1.1-loading.jpg](./screens/1.1-loading.jpg)
 - "Error" state [screens/1.2-error.jpg](./screens/1.2-error.jpg)
@@ -76,7 +76,7 @@ You will also need to handle the loading and error states of fetching the JSON f
 
 ### What language, framework, build tool... should I use?
 
-You may use whatever you like as long as the solution is built using [React](https://facebook.github.io/react/) or [Vue JS](https://vuejs.org/).
+You may use whatever you like as long as the solution is built using [React](https://facebook.github.io/react/), [Angular](https://angular.io/) or [Vue JS](https://vuejs.org/).
 
 You can use any CSS framework you wish ie Bootstrap, Tailwind etc.
 

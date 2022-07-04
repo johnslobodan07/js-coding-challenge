@@ -73,7 +73,7 @@ You will also need to handle the loading and error states of fetching the JSON f
 - "Error" state [screens/1.2-error.jpg](./screens/1.2-error.jpg)
 
 ## Note
-Please deploy the app to the server and share the url. Server details have been shared via email.
+Please deploy the app to the server and share the url. Server details will be shared via email.
 
 ## FAQ
 
